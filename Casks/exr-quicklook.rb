@@ -20,14 +20,16 @@ cask "exr-quicklook" do
     "~/Library/Containers/io.github.bizmar.exr-quicklook",
     "~/Library/Containers/io.github.bizmar.exr-quicklook.Preview",
     "~/Library/Containers/io.github.bizmar.exr-quicklook.Thumbnail",
+    "~/Library/Group Containers/group.io.github.bizmar.exr-quicklook",
   ]
 
   caveats <<~EOS
     EXR Quick Look is not signed or notarised by Apple. Before first use:
       1. Open it from Applications. When macOS refuses, click Done.
       2. System Settings > Privacy & Security > Open Anyway, and confirm.
-      3. System Settings > General > Login Items & Extensions > Quick Look:
-         switch on EXR Quick Look Preview and EXR Quick Look Thumbnail.
+      3. System Settings > General > Login Items & Extensions: scroll down to
+         Extensions (it can be far down), click the (i) at the right of the
+         Quick Look row, and check EXR Quick Look Preview and Thumbnail are on.
     Each update needs step 2 again. Details and download verification:
       https://github.com/bizmar/exr-quicklook#install
   EOS

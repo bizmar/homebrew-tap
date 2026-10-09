@@ -19,8 +19,11 @@ after each update:
 
 Once, after the first install:
 
-3. **System Settings → General → Login Items & Extensions → Quick Look**:
-   switch on **EXR Quick Look Preview** and **EXR Quick Look Thumbnail**.
+3. **System Settings → General → Login Items & Extensions**. Scroll down to
+   the **Extensions** section (it can be a long way down), click the **ⓘ**
+   button at the right-hand end of the **Quick Look** row, and check that
+   **EXR Quick Look Preview** and **EXR Quick Look Thumbnail** are switched
+   on. They may already be.
 
 This cask downloads the same DMG as the
 [GitHub release](https://github.com/bizmar/exr-quicklook/releases/latest),
@@ -29,6 +32,6 @@ CI; to verify it yourself, see
 [Check the download](https://github.com/bizmar/exr-quicklook#check-the-download-optional-recommended-for-an-unsigned-app).
 
 Uninstall: `brew uninstall --cask exr-quicklook` (add `--zap` to remove its
-settings folders too).
+settings folders too). There is nothing to switch off first.
 
 Issues belong in the [main repository](https://github.com/bizmar/exr-quicklook/issues).
