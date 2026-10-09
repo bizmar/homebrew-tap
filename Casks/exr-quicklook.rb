@@ -1,6 +1,6 @@
 cask "exr-quicklook" do
-  version "0.3.2"
-  sha256 "5cc8fa70e3003608e6fa19e72a16d2060e690092442b333b457cbf24ba1d40a7"
+  version "0.3.3"
+  sha256 "48d478fbd107325ab3de7a09d01148bc23020302650ba4844b20f76369a38ec5"
 
   url "https://github.com/bizmar/exr-quicklook/releases/download/v#{version}/EXR-Quick-Look-#{version}.dmg"
   name "EXR Quick Look"
